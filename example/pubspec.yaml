@@ -15,13 +15,13 @@ dependencies:
 
   wechat_assets_picker:
     path: ../
-  wechat_camera_picker: ^2.1.0
+  wechat_camera_picker: ^2.4.2
 
-  extended_image: ^4.0.0
-  package_info_plus: ^1.0.3
+  extended_image: ^5.1.0
+  package_info_plus: ^1.0.6
   path: ^1.8.0
-  path_provider: ^2.0.1
-  provider: ^5.0.0
+  path_provider: ^2.0.5
+  provider: ^6.0.1
 
 flutter:
   uses-material-design: true

@@ -6,10 +6,9 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:math' as math;
 
+import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:extended_image/extended_image.dart';
-
 import '../constants/constants.dart';
 import '../widget/builder/value_listenable_builder_2.dart';
 import '../widget/custom_checkbox.dart';
@@ -90,7 +89,7 @@ abstract class AssetPickerViewerBuilderDelegate<Asset, Path> {
 
   /// [PageController] for assets preview [PageView].
   /// 查看图片资源的页面控制器
-  late final PageController pageController = PageController(
+  late final ExtendedPageController pageController = ExtendedPageController(
     initialPage: currentIndex,
   );
 
